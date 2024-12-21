@@ -1,10 +1,150 @@
-h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+:root {
+  --primary-color: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 100%);
+  --title-color: #200439;
+  --shadow: 5px 5px 5px rgba(14, 16, 77, 0.5);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normals;
+body {
+  background: var(--primary-color);
+  margin: 20px auto;
+  max-width: 900px;
+  font-family: var(--default-font-family);
+}
+.hero {
+  margin-top: 5px;
+  padding: 30px 20px;
+  color: var(--title-color);
+  text-align: center;
+}
+.hero p {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  color: var(--title-color);
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--title-color);
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 0.9;
+  color: var(--title-color);
+  line-height: 2;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.homepageButtons {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex: 1;
+  margin-top: 40px;
+  text-transform: capitalize;
+  font-family: var(--default-font-family);
+  font-weight: normal;
+}
+
+poem-button {
+  max-width: 100%;
+}
+.weather-link,
+.poem-link {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-size: 13px;
+  margin-top: 40px;
+  text-transform: capitalize;
+  text-decoration: none;
+  border: 1px solid rgb(116, 90, 141);
+  border-radius: 10px;
+  background-color: rgb(183, 141, 222);
+  color: #200439;
+  max-width: 100%;
+}
+.weather-link:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.poem-link:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.contact {
+  border: 1px solid rgb(116, 90, 141);
+  padding: 20px;
+  background: rgb(116, 90, 141);
+  box-shadow: var(--shadow);
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.contact-link {
+  color: rgb(208, 201, 205);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.about {
+  border: 1px solid rgb(208, 201, 205);
+  padding: 20px;
+  background-color: rgb(208, 201, 205);
+  box-shadow: var(--shadow);
+  border-radius: 4px;
+  margin: 20px;
+}
+.about-link {
+  color: rgb(116, 90, 141);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.homepage-link {
+  color: rgb(64, 11, 170);
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: -20px;
+}
+
+.mycontact {
+  color: var(--title-color);
+}
+.email-link {
+  color: rgb(47, 21, 72);
+  text-decoration: none;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
+.about-paragraphs {
+  display: flex;
+  margin: 20px 0;
+}
+.content {
+  text-align: center;
+  color: var(--title-color);
+}
+.aboutme {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .resize {
+    max-width: 100%;
+  }
 }
