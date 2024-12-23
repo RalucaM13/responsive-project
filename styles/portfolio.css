@@ -46,16 +46,6 @@ body {
   margin-right: 10px;
 }
 
-.homepageButtons {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  flex: 1;
-  margin-top: 40px;
-  text-transform: capitalize;
-  font-family: var(--default-font-family);
-  font-weight: normal;
-}
 h2 {
   font-size: 15px;
   color: var(--title-color);
@@ -82,10 +72,10 @@ h3 {
   box-shadow: var(--shadow);
   border-radius: 4px;
   color: var(--title-color);
-  padding: 5px 50px;
+  padding: 5px 100px;
 }
 .project-description-one {
-  padding: 90px 60px;
+  padding: 20px 60px 60px 50px;
 }
 
 .navbar-brand {
@@ -191,6 +181,52 @@ img {
   color: var(--title-color) !important;
   text-transform: capitalize;
   text-align: center;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+footer .gmail-link {
+  text-decoration: none;
+  color: var(--title-color);
+  font-size: 28px;
+}
+footer .gmail-link:hover {
+  color: blue;
+}
+footer .gmail-link i:hover {
+  color: blue;
+}
+footer .social-links a {
+  font-size: 24px;
+  color: var(--title-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  background: var(--title-color);
+  color: white;
+}
+footer .social-links {
+  margin-top: 30px;
+}
+footer .btn-contact {
+  text-transform: capitalize;
+  text-decoration: none;
+  border: 1px solid rgb(116, 90, 141);
+  border-radius: 10px;
+  background-color: rgb(116, 90, 141);
+  color: rgb(244, 227, 197);
+}
+footer .btn-contact:hover {
+  text-transform: capitalize;
+  text-decoration: none;
+  border: 1px solid rgb(116, 90, 141);
+  border-radius: 10px;
+  background-color: rgb(116, 90, 141);
+  color: rgb(244, 227, 197);
 }
 .nav-item {
   padding: 0 20px;
