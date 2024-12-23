@@ -208,9 +208,7 @@ footer .gmail-link {
   color: var(--title-color);
   font-size: 28px;
 }
-.open {
-  color: blue;
-}
+
 footer .gmail-link:hover {
   color: blue;
 }
@@ -252,7 +250,8 @@ footer .btn-contact:hover {
   color: rgb(244, 227, 197);
 }
 .nav-item {
-  padding: 0 20px;
+  padding: 0 10px;
+  text-transform: capitalize;
 }
 .containerc {
   position: relative;
