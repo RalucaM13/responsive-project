@@ -156,12 +156,16 @@ img {
   display: inline;
 }
 .intro {
-  margin-top: 70px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-family: var(--heading-font-family);
+  color: var(--title-color);
 }
 .navigation a {
   text-decoration: none;
   color: var(--title-color);
 }
+
 .containerw h3 {
   font-size: 8px;
   line-height: 1;
@@ -171,6 +175,10 @@ img {
   font-weight: bold;
   line-height: 2;
 }
+.pictext {
+  margin-top: 0;
+  text-align: center;
+}
 
 .logo {
   max-width: 18%;
@@ -178,8 +186,11 @@ img {
 .mainlogo {
   max-width: 18%;
 }
+.active {
+  color: var(--title-color) !important;
+}
 .nav-item {
-  margin-right: 20px;
+  padding: 0 20px;
 }
 .containerc {
   position: relative;
