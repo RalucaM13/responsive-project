@@ -141,7 +141,6 @@ h3 {
 img {
   border-radius: 4px;
 }
-
 .aboutw h1 {
   font-family: var(--heading-font-family);
   color: var(--title-color);
@@ -154,7 +153,14 @@ img {
   max-width: 60%;
   color: var(--title-color);
 }
-
+.navigation li {
+  list-style: none;
+  display: inline;
+}
+.navigation a {
+  text-decoration: none;
+  color: var(--title-color);
+}
 .containerw h3 {
   font-size: 8px;
   line-height: 1;
@@ -164,11 +170,23 @@ img {
   font-weight: bold;
   line-height: 2;
 }
+
+.logo {
+  max-width: 18%;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.containerc {
+  position: relative;
+  top: -100px;
+}
 .containerc h1 {
-  font-size: 30px;
-  line-height: 1;
-  font-family: var(--default-font-family);
+  font-size: 50px;
+  line-height: 1.5;
+  font-family: var(--heading-font-family);
   color: var(--title-color);
+  padding: 80px 0px 10px 0px;
 }
 .containerc h3 {
   font-size: 20px;
