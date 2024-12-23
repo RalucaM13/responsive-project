@@ -189,6 +189,7 @@ img {
 }
 .active {
   color: var(--title-color) !important;
+  text-transform: capitalize;
 }
 .nav-item {
   padding: 0 20px;
