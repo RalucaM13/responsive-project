@@ -77,7 +77,8 @@ h4 {
   box-shadow: var(--shadow);
   border-radius: 4px;
   color: var(--title-color);
-  padding: 5px 100px;
+  padding: 10px 100px;
+  margin-bottom: 15px;
 }
 .project-description-one {
   padding: 20px 60px 60px 50px;
@@ -98,6 +99,12 @@ h4 {
   .about-section-container {
     padding: 0;
     text-align: justify;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn-branding-outline {
+    margin-bottom: 20px;
   }
 }
 .aboutme {
